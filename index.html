@@ -11,16 +11,16 @@
   <meta name="apple-mobile-web-app-title" content="A.M Chan" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="format-detection" content="telephone=no" />
-  <link rel="manifest" href="/app/manifest.webmanifest" />
-  <link rel="icon" href="/favicon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="favicon.png" />
   <link rel="apple-touch-icon" href="/app/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/app/app.css" />
+  <link rel="stylesheet" href="app.css" />
 </head>
 <body>
   <div id="app" class="app">
     <!-- log in / sign up -->
     <section id="vAuth" class="screen scroll" hidden>
-      <img class="big" src="/img/face.png" alt="" width="104" height="104" />
+      <img class="big" src="face.png" alt="" width="104" height="104" />
       <h1>A.M Chan</h1>
       <div class="tabs" role="tablist">
         <button id="tabLogin" type="button" class="on" role="tab">Log in</button>
@@ -40,7 +40,7 @@
     </section>
 
     <section id="vPending" class="screen" hidden>
-      <img class="big wobble" src="/img/face.png" alt="" width="120" height="120" />
+      <img class="big wobble" src="face.png" alt="" width="120" height="120" />
       <h1>Waiting for the OK</h1>
       <p>The owner needs to let your account in, once. Keep this page open or come back later. It opens by itself when you're approved.</p>
       <p class="muted" id="pendingName"></p>
@@ -49,14 +49,14 @@
     </section>
 
     <section id="vBlocked" class="screen" hidden>
-      <img class="big" src="/img/face.png" alt="" width="120" height="120" />
+      <img class="big" src="face.png" alt="" width="120" height="120" />
       <h1>No access</h1>
       <p id="blockedText">The owner turned off access for this account.</p>
       <button class="link" id="blockedOut" type="button">Log out</button>
     </section>
 
     <section id="vOffline" class="screen" hidden>
-      <img class="big" src="/img/face.png" alt="" width="120" height="120" />
+      <img class="big" src="face.png" alt="" width="120" height="120" />
       <h1>A.M is asleep</h1>
       <p id="offlineText">Her home PC isn't online right now. Try again in a little while.</p>
       <button class="btn primary" id="offlineRetry" type="button">Try again</button>
@@ -65,7 +65,7 @@
     <!-- your chats (up to 3) -->
     <section id="vChats" class="chat" hidden>
       <header class="top">
-        <img src="/img/face.png" alt="" width="40" height="40" />
+        <img src="face.png" alt="" width="40" height="40" />
         <div class="who"><b>Your chats</b><small id="chatsSub"></small></div>
         <button id="menuBtn2" class="icon" type="button" aria-label="Menu">⋯</button>
       </header>
@@ -118,6 +118,6 @@
       </div>
     </div>
   </div>
-  <script src="/app/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
