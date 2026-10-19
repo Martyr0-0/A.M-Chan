@@ -57,7 +57,7 @@
     $('authError').hidden = true;
     if (signup && !consentText) {
       api('/v1/consent', {}).then(function (r) {
-        consentText = (r.json && r.json.text) || 'The owner of this PC can read your chats and sees your connection address.';
+        consentText = (r.json && r.json.text) || 'Can you be trusted not to be a straight up incel...?';
         $('consentText').textContent = consentText;
       });
     } else $('consentText').textContent = consentText;
