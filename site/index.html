@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>A.M Chan</title>
+  <meta name="description" content="A.M Chan: a private AI companion that lives on your own PC. Download it for Windows or use her from your phone." />
+  <meta name="theme-color" content="#fff5fa" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="stylesheet" href="/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="/"><img src="/img/face.png" alt="" width="36" height="36" /><span>A.M Chan</span></a>
+    <nav>
+      <a href="#features">What she does</a>
+      <a href="#phone">Phone</a>
+      <a href="#download">Download</a>
+    </nav>
+    <span id="status" class="status" title="Is A.M's home PC online right now?"><i></i><span>checking...</span></span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Private. Local. Yours.</p>
+        <h1>Meet <em>A.M Chan</em></h1>
+        <p class="lead">A companion who lives on your own computer. She chats, talks out loud, sees the window you show her, helps with your files, and takes calls. On your own PC, nothing you say ever leaves it.</p>
+        <div class="cta">
+          <a class="btn primary" href="#download" id="ctaDownload">Download for Windows</a>
+          <a class="btn ghost" href="/app/" id="ctaPhone">Open on your phone</a>
+        </div>
+        <p class="fine" id="ctaFine">Free. Windows 10 or 11. No account.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="mock">
+          <div class="mock-bar"><i></i><i></i><i></i><span>A.M Chan</span></div>
+          <div class="mock-body">
+            <aside class="mock-side"><img src="/img/face.png" alt="" /><b>A.M</b><div class="chip on">Simple</div><div class="chip">Complex</div><div class="item active">Today</div><div class="item">Cat names</div><div class="item">Math help</div></aside>
+            <div class="mock-chat">
+              <div class="bub ai">Hmph. You called. Well? I'm listening.</div>
+              <div class="bub me">Can you help me plan my week?</div>
+              <div class="bub ai">Fine. Tell me what's due first, and don't leave out the boring stuff.</div>
+              <div class="mock-input"><span>Say something...</span><b>Send</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <h2>What she does</h2>
+      <div class="grid">
+        <article class="card"><div class="ico">💬</div><h3>Chats like a friend</h3><p>Two brains: a quick one for everyday talk and a heavy one for coding. She thinks for a moment before she answers, so she actually answers what you asked.</p></article>
+        <article class="card"><div class="ico">🎙️</div><h3>Calls and her own voice</h3><p>Ring her and just talk. She ignores background noise, keeps replies short, can tell different voices apart, and stops when someone talks over her.</p></article>
+        <article class="card"><div class="ico">🪟</div><h3>Sees what you show her</h3><p>Share one window and she looks at it. Never your whole screen, never password or payment windows.</p></article>
+        <article class="card"><div class="ico">📁</div><h3>Helps with your files</h3><p>She can read and edit notes and code, only in folders you choose. Windows folders, keys and programs are always off limits.</p></article>
+        <article class="card"><div class="ico">🌐</div><h3>Looks things up</h3><p>She can search the web and check sources, and you can switch searching off whenever you like.</p></article>
+        <article class="card"><div class="ico">🔒</div><h3>No cloud</h3><p>She runs on a PC, not in a company's cloud. Your own copy keeps your chats on your own machine. If you use her through someone else's PC, that owner can read those chats, and sign-up tells you so first.</p></article>
+      </div>
+    </section>
+
+    <section id="phone" class="section alt">
+      <h2>Use her from your phone</h2>
+      <p class="sub">The phone app is a web app. It installs straight from your browser, with no app store, and it works on iPhone and Android. She runs on the home PC, so you need the owner's OK the first time.</p>
+      <div class="steps">
+        <div class="step"><span>1</span><h3>Sign up</h3><p>Open the phone app and make an account with a username and password. You'll be asked to agree that the owner can read your chats and see your connection address.</p></div>
+        <div class="step"><span>2</span><h3>Wait for the OK</h3><p>The owner lets your account in once. You'll see a waiting screen until they do. You can have up to 3 chats.</p></div>
+        <div class="step"><span>3</span><h3>Add to home screen</h3><p><b>iPhone:</b> tap Share, then <b>Add to Home Screen</b>.<br /><b>Android:</b> tap <b>Install app</b> (or the menu, then Install).</p></div>
+      </div>
+      <p class="center"><a class="btn primary" href="/app/">Open the phone app</a></p>
+      <p class="fine center">Up to <b id="slots">2</b> people can talk to her at once. Everyone else waits in line, and you can see your place. The owner's own use of her always comes first.</p>
+    </section>
+
+    <section id="download" class="section">
+      <h2>Download for PC</h2>
+      <p class="sub">Windows 10 or 11, 64-bit. Installs just for you, no admin needed.</p>
+      <div id="dlList" class="dl"><p class="muted">Loading downloads...</p></div>
+      <details class="how">
+        <summary>Which one do I pick?</summary>
+        <p><b>Connect to A.M's PC</b> is the easy one. It needs no AI on your PC: she runs on the home PC and your copy connects to it (you'll need the owner's OK).</p>
+        <p><b>Standalone</b> runs entirely on your own PC. You also need <a href="https://ollama.com" rel="noopener noreferrer" target="_blank">Ollama</a> and the two AI models installed. Better for privacy and speed if your PC can handle it.</p>
+        <p>Windows may say the app is from an unknown publisher, because it isn't code-signed. Choose <b>More info, then Run anyway</b>. To check you got the genuine file, compare its fingerprint (SHA-256) with the one shown here.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <img src="/img/face.png" alt="" width="28" height="28" />
+    <p>A.M Chan, a private companion on your own PC. <span id="year"></span></p>
+  </footer>
+  <script src="/site.js"></script>
+</body>
+</html>
